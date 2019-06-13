@@ -113,7 +113,7 @@ twoweeks = 14.0
 nweeks = round(tofloat(ndays)/twoweeks,3)
 
 ; load file of counts by 2 week intervals for this track
-fin = addfile("./"+yy_in+"_"+track+"_counts_for_2wk_chunks.nc","r")
+fin = addfile("./"+yy_in+"_"+track+"_counts_2wk_chunks.nc","r")
 loc_2wk = fin->loc_2wk
 
 ; now get index of lat/lon with the highest count

@@ -20,7 +20,7 @@ begin
 ; CLM
 ;;;;;;;;;;;;;
 ; names of files
-  file_clm = "/project/ppc/duvivier/projects/mosaic/analysis/paper_figures/version_6/fig_1_maps_tracks_most_probable/files/land_topo.10min.nc"
+  file_clm = "/project/ppc/duvivier/projects/mosaic/analysis/paper_figures/MOSAIC_TC_2019/fig_1_maps_tracks_most_probable/files_needed/land_topo.10min.nc"
 
 print ("Loading CLM data")
 ; Loading files to be used in this script
@@ -143,7 +143,7 @@ replace_ieeenan(lon_track_h,lon_track_h@_FillValue,0)
 ; Load Most probable tracks
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 print("Getting most probable tracks")
-indir_p    = "/project/ppc/duvivier/projects/mosaic/analysis/paper_figures/version_6/fig_1_maps_tracks_most_probable/files/"
+indir_p    = "/project/ppc/duvivier/projects/mosaic/analysis/paper_figures/MOSAIC_TC_2019/fig_1_maps_tracks_most_probable/files_needed/"
 innames_p   = systemfunc("ls "+indir_p+"/*.txt")
 
 ; 2021 data
