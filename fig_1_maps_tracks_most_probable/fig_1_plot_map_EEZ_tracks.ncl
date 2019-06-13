@@ -3,7 +3,7 @@
 ; INPUT DATA: shape files, LENS tracks, most probable track
 ; OUTPUT DATA: Map of individual and highly likely tracks
 ; and shaded EEZ
-; CREATOR: Alice DuVivier - May 2019
+; CREATOR: Alice DuVivier - May 2019 
 ;***************************************
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"

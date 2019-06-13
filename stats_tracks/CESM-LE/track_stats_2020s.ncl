@@ -2,7 +2,7 @@
 ; PROGRAM DESCRIPTION: Plot Arctic EEZ and MOSAIC tracks
 ; INPUT DATA: shape files, tracks
 ; OUTPUT DATA: Map of tracks and shaded EEZ
-; CREATOR: Alice DuVivier - Feb 2019
+; CREATOR: Alice DuVivier - Feb 2019 
 ;***************************************
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
@@ -143,7 +143,7 @@ do d = 0, ndates -1
     end do
 
     ; write out a text file with the stats
-    fout = track+"_stats.txt"
+    fout = track+"_track_stats.txt"
     alist = [/ens_name+", "+last_date+", "+path_type/]
     write_table(fout,"w",alist,"%s")
 

@@ -345,13 +345,13 @@ print ("Creating plot")
   mkres = True
   mkres@gsMarkerColor = "black"
   mkres@gsMarkerIndex = 5 ;16
-  mkres@gsMarkerSizeF = 0.01
+  mkres@gsMarkerSizeF = 0.02
 
 ; most probable marker res
   mkres1 = True
   mkres1@gsMarkerColor = "black"
   mkres1@gsMarkerIndex = 4 
-  mkres1@gsMarkerSizeF = 0.01
+  mkres1@gsMarkerSizeF = 0.02
 
 ; set line res 
   lnres                           = True

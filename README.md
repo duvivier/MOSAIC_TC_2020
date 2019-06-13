@@ -1,14 +1,14 @@
-# MOSAIC_GRL_2019
+# MOSAIC_TC_2019
 
 CREATOR:
 
 Alice DuVivier - duvivier@ucar.edu 
-May 2019
+June 2019
 
 DESCRIPTION:
 
 Scripts for figures and analysis prepared for manuscript 
-submitted to GRL in June 2019. Analysis scripts are in
+submitted to the Cryosphere in June 2019. Analysis scripts are in
 NCL langauge with cshell wrapper scripts. 
 
 Directories are separated by figure number.

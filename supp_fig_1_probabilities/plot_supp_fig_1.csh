@@ -1,7 +1,7 @@
 #! /bin/tcsh -f
 
 # Script to plot figure 2 panels
-# Alice DuVivier- May 2019
+# Alice DuVivier- May 2019 
 #################################################
 ##############
 # USER INPUTS

@@ -141,7 +141,7 @@ do d = 0, ndates -1
     end do
 
     ; write out a text file with the stats
-    fout = track+"_stats.txt"
+    fout = track+"_track_stats.txt"
     alist = [/ens_name+", "+last_date+", "+path_type/]
     write_table(fout,"w",alist,"%s")
 
